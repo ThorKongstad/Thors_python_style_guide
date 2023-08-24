@@ -16,7 +16,7 @@ def example_function():
 
 # variable declarations
     # could be a physical constant going in here
-
+pi = 3.14
 
 # the __all__ variable is a list of the all the names as str for all the classes, functions and variables that can be imported from this __init__
-__all__ = ['example_function']
+__all__ = ['example_function', 'pi']
