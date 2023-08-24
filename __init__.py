@@ -3,7 +3,7 @@
 # then downloadable packages such as numpy
 
 
-### The stuff that goes in here should be high level functions etc that is likely to be used among many scripts.
+### The stuff that goes in here should be functions etc that is likely to be used among many scripts.
 
 
 # class declaration.
