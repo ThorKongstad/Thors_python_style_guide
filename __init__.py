@@ -14,9 +14,11 @@
 def example_function():
     return
 
+
 # variable declarations
     # could be a physical constant going in here
-pi = 3.14
+golden_angle = 2.399963297
+
 
 # the __all__ variable is a list of the all the names as str for all the classes, functions and variables that can be imported from this __init__
-__all__ = ['example_function', 'pi']
+__all__ = ['example_function', 'golden_angle']

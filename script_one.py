@@ -10,7 +10,7 @@ from typing import Tuple, Sequence
 import numpy as np
 
 # local Import
-# this inserts the folder in which the script exists in into the path string, so that when we look for packages we will also be able to import our scripts.
+# this inserts the folders location into the path string, so that when we look for packages we will also be able to import our other scripts.
 sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
 
 # this match the folder/project name and will import as the __init__ of this project
@@ -70,6 +70,8 @@ if __name__ == '__main__':
     # it can be seen as the start of the script.
     # and for me the function of this 'if' is to set up the script arguments with argparse and parse that into the main().
     # Often i use argparse to state what files go into the scripts and what form the output should have, such as tables or plots.
+
+    # if you don't have arguments for the script, then there is no need for having arg parse, and you can just call main() from here
 
     parser = argparse.ArgumentParser()
     parser.add_argument('argument', type=str, help='an argument that can be filled from the command line')
