@@ -8,7 +8,7 @@ and all information coming out of a function scope shoulde ideally through retur
 For methods which belong to class object they can modifi the object outside their scope, but in the same manner are they part of the objects scope. <br>
 
 **Native Python Packages** <br>
-Must know  packages: <br>
+Really should know  packages: <br>
 typing <br>
 os <br>
 sys <br>
