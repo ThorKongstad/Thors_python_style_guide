@@ -7,8 +7,8 @@ In the same manner a function should not create global variables,
 and all information coming out of a function scope shoulde ideally through returns or yeild statements.
 For methods which belong to class object they can modifi the object outside their scope, but in the same manner are they part of the objects scope.
 
-**Native Python Packages**
-Must know  packages:
+**Native Python Packages** \n
+Must know  packages: \n
 typing
 os 
 sys
